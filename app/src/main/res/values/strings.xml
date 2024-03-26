@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bihar Land Record भूमि रिकॉर्ड 2024</string>
+
+    <string-array name="stories_name">
+        <item>ऑनलाइन दाखिल ख़ारिज आवेदन करें ➜</item>
+        <item>दाखिल ख़ारिज आवेदन स्थिति देखें ➜</item>
+        <item>आम सूचना ➜</item>
+        <item>ऑनलाइन एल० पी० सी० आवेदन करें ➜</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/mainimage"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mainimage"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BiharLandRecord"
+        tools:targetApi="31">
+        <activity
+            android:name=".map_Bihar_Land_Record"
+            android:exported="false" />
+        <activity
+            android:name=".Jamabandi_Bihar_Land_Record"
+            android:exported="false" />
+        <activity
+            android:name=".Parimarjan_Bihar_Land_Record"
+            android:exported="false" />
+        <activity
+            android:name=".contactus_Bihar_Land_Record"
+            android:exported="false" />
+        <activity
+            android:name=".Bhulagan_Bihar_Land_Record"
+            android:exported="false" />
+        <activity
+            android:name=".OnlineDakhilKharij_Bihar_land_Record"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_bihar_land_reports"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen_bihar_land_record"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".show_bihar_land_record"
+            android:exported="false" />
+        <activity
+            android:name=".About_Bihar_Land_Record"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
